@@ -37,9 +37,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(314, 24);
+            this.button1.Location = new System.Drawing.Point(269, 21);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 22);
+            this.button1.Size = new System.Drawing.Size(89, 19);
             this.button1.TabIndex = 1;
             this.button1.Text = "Select File";
             this.button1.UseVisualStyleBackColor = true;
@@ -47,36 +47,37 @@
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.CheckOnClick = true;
             this.checkedListBox1.Enabled = false;
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 24);
+            this.checkedListBox1.Location = new System.Drawing.Point(10, 21);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(296, 94);
+            this.checkedListBox1.Size = new System.Drawing.Size(254, 79);
             this.checkedListBox1.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 131);
+            this.label1.Location = new System.Drawing.Point(10, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 15);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Export date:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 6);
+            this.label2.Location = new System.Drawing.Point(10, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 15);
+            this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Select usernames";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(314, 96);
+            this.button2.Location = new System.Drawing.Point(269, 83);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 22);
+            this.button2.Size = new System.Drawing.Size(89, 19);
             this.button2.TabIndex = 5;
             this.button2.Text = "Export!";
             this.button2.UseVisualStyleBackColor = true;
@@ -84,9 +85,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 154);
+            this.ClientSize = new System.Drawing.Size(369, 133);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
